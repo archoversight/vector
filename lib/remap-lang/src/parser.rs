@@ -783,14 +783,6 @@ mod tests {
                     "= expected value, variable, path, group or function call, value, variable, path, group, !",
                 ],
             ),
-            (
-            (
-                r#"foo = "bar""#,
-                vec![
-                    " 1:4\n",
-                    "= unknown parsing error",
-                ],
-            ),
             // (
             //     r#".foo.bar = "baz" and this"#,
             //     vec![
