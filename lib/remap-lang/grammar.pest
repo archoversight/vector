@@ -115,6 +115,7 @@ reserved_keyword = @{
     | "impl"
     | "in"
     | "self"
+    | "this"
     | "use"
     | "std"
     | null
